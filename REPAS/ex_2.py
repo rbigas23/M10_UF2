@@ -1,0 +1,5 @@
+dinero = float(input("Introdueix un valor en €: "))
+iva = int(input("Introdueix un percentatge d'IVA per aplicar-hi (4%, 10% o 21%): "))
+print(f"Valor original: {dinero}€")
+print(f"Percentatge d'IVA: {iva}%")
+print(f"Valor amb l'IVA aplicat: {dinero - (dinero * iva / 100)}€")
