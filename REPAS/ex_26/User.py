@@ -1,3 +1,5 @@
+# Exercici 26
+
 id = 0
 
 class User:
