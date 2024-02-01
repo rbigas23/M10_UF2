@@ -16,12 +16,14 @@ try:
 
     if input("Vols crear una taula? (s/N): ").lower() == 's':
         create_table(connection, cursor)
-        
-    create_data(connection, cursor)
+    
     read_data(cursor)
     
-    update_data(connection, cursor)
-    read_data(cursor)
+    # create_data(connection, cursor)
+    # read_data(cursor)
+    
+    # update_data(connection, cursor)
+    # read_data(cursor)
     
     delete_data(connection, cursor, 1)
     read_data(cursor)
