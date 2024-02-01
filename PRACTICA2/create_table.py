@@ -1,3 +1,7 @@
+"""
+Aquesta funció s'encarrega de crear la taula amb els seus atributs
+"""
+
 def create_table(connection, cursor):
     query = """
     CREATE TABLE MOVIES(

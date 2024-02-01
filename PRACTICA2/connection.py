@@ -1,5 +1,9 @@
 import psycopg2
 
+"""
+Aquest arxiu té una funció que retorna l'objecte de connexió
+"""
+
 arguments = {
     "database": "postgres",
     "user": "user_postgres",
